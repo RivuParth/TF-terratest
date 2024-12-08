@@ -31,6 +31,7 @@ jobs:
           go get github.com/gruntwork-io/terratest/modules/terraform
           go get github.com/gruntwork-io/terratest/modules/aws
           go get github.com/stretchr/testify/assert 
+          
 
       - name: Run Terratest
         run: |
